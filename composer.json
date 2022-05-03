@@ -1,0 +1,15 @@
+{
+    "name": "tp5er/easy-aliyun",
+    "autoload": {
+        "psr-4": {
+            "tp5er\\EasyAliyun\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "6.*|7.*"
+    },
+    "require-dev": {
+        "php-mqtt/client": "v1.1.0"
+    }
+}
